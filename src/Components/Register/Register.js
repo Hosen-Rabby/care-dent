@@ -5,6 +5,7 @@ import { HashLink } from 'react-router-hash-link';
 
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword } from "firebase/auth";
 import initializeAuthentication from "../../Firebase/firebase.initialize";
+import css from '../css/style.css';
 
 
 initializeAuthentication();
@@ -44,22 +45,23 @@ const Register = () => {
     }
 
     return (
-        <div>
+        <div className = 'register'>
             <Container>
                 <Row>
                     <Col md ={12}>
                         <h3>Pleasse Register</h3>
                         <form onSubmit = {handleRegistration}>
-                            <lable htmlFor = 'email'>Email</lable>
-                            <input type = 'text' name = 'email' onBlur = {handleEmail} required></input><br/>
-                            <lable htmlFor = 'password'>Pass</lable>
-                            <input type = 'password' name = 'password' onBlur = {handlePass} required></input><br/>
-                            <input type = 'submit' value = 'Register'></input>
+                            
+                            <input type = 'email' name = 'email' onBlur = {handleEmail} required placeholder = 'Enter email' className = 'inp_field'></input><br/>
+                            
+                            <input type = 'password' name = 'password' onBlur = {handlePass} required placeholder = 'Enter password' className = 'inp_field'></input><br/>
+                            
+                            <input type = 'submit' value = 'Register' className = 'b_btn'></input>
                            
                             <h4 className = "text-danger" >{error}</h4>
                         </form>
                         <h4>Already Registered?</h4>
-                        <Nav.Link as= {HashLink} to = '/login'>Login</Nav.Link>
+                        <Nav.Link as= {HashLink} to = '/login' className = 'ab_btn'>Login</Nav.Link>
 
                     </Col>
                 </Row>

@@ -1,12 +1,14 @@
 import React from 'react';
 import { useParams } from 'react-router';
+import css from '../css/style.css'
 
 const SerItem = () => {
 
-    const {seritemId} = useParams();
+    const {patient, seritemId} = useParams();
 
     return (
-        <div>
+        <div className = 'serItem'>
+            {patient}
             {seritemId}
         </div>
     );

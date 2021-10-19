@@ -33,9 +33,9 @@ function App() {
           <Route path = '/register'>
             <Register></Register>
           </Route>
-          <PrivateRoute path = '/seritem/:seritemId'>
+          <Route path = '/seritem/:seritemId'>
             <SerItem></SerItem>
-          </PrivateRoute>
+          </Route>
           <Route path = '*'>
             <NotFound></NotFound>
           </Route>

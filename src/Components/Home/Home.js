@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container,Row,Col } from 'react-bootstrap';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
 import css from '../css/style.css'
 import Services from '../Services/Services';
 const Home = () => {
@@ -20,10 +22,19 @@ const Home = () => {
             </Container>
             </div>
         </div>
-        <div id = 'services'>
-                    <Services></Services>      
+        <div id = 'about'>
+                <About></About>      
             
         </div>
+        <div id = 'services'>
+                <Services></Services>      
+            
+        </div>
+        <div id = 'contact'>
+                <Contact></Contact>      
+            
+        </div>
+
         </div>
     );
 };

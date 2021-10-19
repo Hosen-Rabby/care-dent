@@ -13,8 +13,9 @@ const Service = ({service}) => {
                     <div className = 'item_des'>
                         <h5>{name}</h5>
                         <h4>{doctor}</h4>
+                        <h6>Happy Patient: {patient}</h6>
                         <Link to = {`/seritem/${key}`}>
-                            <button>Details</button>
+                            <button className ='b_btn'>Details</button>
                         </Link>
                     </div>
                 </div>            
