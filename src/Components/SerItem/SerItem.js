@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import css from '../css/style.css'
 
-const SerItem = () => {
+const SerItem = (props) => {
+   
 
-    const {patient, seritemId} = useParams();
+    const {seritemId} = useParams();
 
     return (
         <div className = 'serItem'>
-            {patient}
+            {/* {patient} */}
             {seritemId}
         </div>
     );

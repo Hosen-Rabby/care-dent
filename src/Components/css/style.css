@@ -94,3 +94,10 @@
 .serItem{
     min-height: 100vh;
 }
+
+.not{
+    min-height: 100vh;
+    background-color: black;
+    color: #fff;
+    padding-top: 50px;
+}

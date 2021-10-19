@@ -12,8 +12,11 @@ const Service = ({service}) => {
                     <img src = {img} alt= 'icon'></img>
                     <div className = 'item_des'>
                         <h5>{name}</h5>
-                        <h4>{doctor}</h4>
+                        <h4>Dr: {doctor}</h4>
                         <h6>Happy Patient: {patient}</h6>
+                        <p>
+                            {description}
+                        </p>
                         <Link to = {`/seritem/${key}`}>
                             <button className ='b_btn'>Details</button>
                         </Link>
