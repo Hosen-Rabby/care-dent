@@ -1,0 +1,42 @@
+.banner{
+    background: url('../../img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.611);
+    /* opacity: .6; */
+    padding: 210px 0;
+}
+
+.banner .banner_h3{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: start;
+}
+
+.banner p{
+    color: #fff;
+}
+
+/* services */
+.services{
+    background-color: #f2f2f2;
+}
+
+.service_item{
+    padding: 30px;
+    border: 1px solid #444;
+    margin: 10px;
+}
+
+.service_item img{
+    width: 50px;
+    height: 60px;
+    margin-right: 10px;
+}
