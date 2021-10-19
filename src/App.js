@@ -9,6 +9,8 @@ import SerItem from './Components/SerItem/SerItem';
 import Login from './Components/Login/Login';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import Footer from './Components/Footer/Footer';
+import Register from './Components/Register/Register';
 
 
 function App() {
@@ -28,13 +30,17 @@ function App() {
           <Route path = '/login'>
             <Login></Login>
           </Route>
-          <Route path = '/seritem/:seritemId'>
-            <SerItem></SerItem>
+          <Route path = '/register'>
+            <Register></Register>
           </Route>
+          <PrivateRoute path = '/seritem/:seritemId'>
+            <SerItem></SerItem>
+          </PrivateRoute>
           <Route path = '*'>
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </BrowserRouter>
       </AuthProvider>
     </div>
