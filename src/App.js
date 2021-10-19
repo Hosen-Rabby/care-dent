@@ -33,7 +33,7 @@ function App() {
           <Route path = '/register'>
             <Register></Register>
           </Route>
-          <PrivateRoute path = '/seritem/:seritemId'>
+          <PrivateRoute path = '/seritem/:seritemId/'>
             <SerItem></SerItem>
           </PrivateRoute>
           <Route path = '*'>
