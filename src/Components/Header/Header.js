@@ -29,8 +29,8 @@ const Header = () => {
                         }
                         </Nav>
                         <Navbar.Text>
-                            {/* <a href = '#login'>{users?.displayName}</a> */}
-                            <a href = '#login'>{users?.email.substring(0, users.email.lastIndexOf("@"))}</a>
+                            <a href = '#login'>{users?.displayName}</a>
+                            {/* <a href = '#login'>{users?.email.substring(0, users.email.lastIndexOf("@"))}</a> */}
                         </Navbar.Text>
                     </Navbar.Collapse>
                     </Container>
