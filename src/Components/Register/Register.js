@@ -49,7 +49,7 @@ const Register = () => {
             <Container>
                 <Row>
                     <Col md ={12}>
-                        <h3>Pleasse Register</h3>
+                        <h3>Please Register</h3>
                         <form onSubmit = {handleRegistration}>
                             
                             <input type = 'email' name = 'email' onBlur = {handleEmail} required placeholder = 'Enter email' className = 'inp_field'></input><br/>

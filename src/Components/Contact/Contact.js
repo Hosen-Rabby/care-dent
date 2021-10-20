@@ -8,7 +8,16 @@ const Contact = () => {
             <Container>
                 <Row>
                     <Col lg ={12}>
-                        <h3 className='title'>Contact Information</h3>
+                        <h3 className='title text-center'>Contact</h3>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={12} className = 'have_que'>
+                        <p>Conact with us</p>
+                        <h2>
+                        Have any question?<br></br>
+                        feel free to contact with us.
+                        </h2>
                     </Col>
                 </Row>
                 <Row>

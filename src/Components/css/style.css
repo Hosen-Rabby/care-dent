@@ -80,6 +80,22 @@
 
 .contacts{
     padding: 70px 0;
+    text-align: left;
+}
+
+.have_que{
+    text-align: left;
+}
+.have_que p{
+    color: #32bef1;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.have_que h2{
+    font-size: 40px;
+    margin-bottom: 50px;
 }
 /* about */
 .abouts{
@@ -146,12 +162,60 @@
 
 
 .footer{
-    background-color: rgb(19, 18, 18);
+    background-color: #2b3132;
     color: #f2f2f2;
     text-align: left;
     padding: 20px 0;
 }
 
+.footer_m{
+    color: #fff;
+}
+
+.footer h4{
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 210px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.footer_l p{
+    margin-top: 15px;
+    line-height: 35px;
+}
+
+.footer_m .nav-link{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+.footer_m .nav-link:hover{
+    color: #32bef1;
+}
+
+.contact p{
+    padding: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact h2{
+    font-size: 20px;
+    color: #32bef1;
+
+}
+.copy{
+    border-top: 1px solid rgb(194, 194, 194);
+    margin-top: 40px;
+}
+
+.copy p{
+    margin-top: 30px;
+}
 /* media query */
 
 @media only screen and (max-width: 991px) {

@@ -8,29 +8,10 @@ const About = () => {
             <Container>
                 <Row>
                     <Col lg = {12}>
-                        <h3 className='title'>About</h3>
-                        <p>
-                        Our care systems are organizations established to meet the health needs of targeted populations
-                        </p>
-                       
+                        <h3 className='title text-center'>About</h3>
                     </Col>
                 </Row>
-
-                <Row>
-                    <Col lg = {12} className ='about_tips'>
-                        <h5>Dental Care Tips</h5>
-                         <ul>
-                            <li>Don't go to bed without brushing your teeth</li>
-                            <li>Brush properly</li>
-                            <li>Don't neglect your tongue.</li>
-                            <li>Treat flossing as important as brushing.</li>
-                            <li>Use a fluoride toothpaste.</li>
-                            <li>Don't let flossing difficulties stop you.</li>
-                            <li>Consider mouthwash</li>
-                        </ul>
-                    </Col>
-                </Row>
-
+                
                 <Row>
                     <Col lg={3}>
                         <div className ='about_item'>
@@ -65,6 +46,22 @@ const About = () => {
                         </div>
                     </Col>
                 </Row>
+
+                <Row>
+                    <Col lg = {12} className ='about_tips'>
+                        <h5>Dental Care Tips</h5>
+                         <ul>
+                            <li>Don't go to bed without brushing your teeth</li>
+                            <li>Brush properly</li>
+                            <li>Don't neglect your tongue.</li>
+                            <li>Treat flossing as important as brushing.</li>
+                            <li>Use a fluoride toothpaste.</li>
+                            <li>Don't let flossing difficulties stop you.</li>
+                            <li>Consider mouthwash</li>
+                        </ul>
+                    </Col>
+                </Row>
+
             </Container>
         </div>
         </div>
