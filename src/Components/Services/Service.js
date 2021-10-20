@@ -8,7 +8,7 @@ const Service = ({service}) => {
     return (
             
             <Col lg={4}>
-                <div className = 'service_item d-flex'>
+                <div className = 'service_item'>
                     <img src = {img} alt= 'icon'></img>
                     <div className = 'item_des'>
                         <h5>{name}</h5>

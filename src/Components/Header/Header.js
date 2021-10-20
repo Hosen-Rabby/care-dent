@@ -7,13 +7,15 @@ import css from '../css/style.css';
 
 const Header = () => {
     const {users, logOut} = useAuth();
+    console.log(users);
+
     // console.log(email)
 
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky = 'top'>
                 <Container>
-                <Navbar.Brand href="/home">Care Dent</Navbar.Brand>
+                <Navbar.Brand href="/home" className ='logo'>Care Dent</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="m-auto">
@@ -24,13 +26,16 @@ const Header = () => {
                         </Nav>
                         <Nav>
                         {users?.email ?
-                           <Button onClick ={logOut} className = 'b_btn'>Logout</Button>
+                           <Button onClick ={logOut} className = 'b_btn lgo_btn'>Logout</Button>
                            :
                            <Nav.Link as= {HashLink} to = '/login' className = 'b_btn'>Login</Nav.Link>
                         }
                         </Nav>
                         <Navbar.Text>
-                            <a href = '#login'>{users?.displayName}</a>
+                            <a href = '#login' className = 'login_name'>{users?.displayName}</a>
+                            <a href='#'>
+                                <img src={users?.photoURL} alt ='' className = 'login_img'/>
+                            </a>
                             {/* <a href = '#login'>{users?.email.substring(0, users.email.lastIndexOf("@"))}</a> */}
                         </Navbar.Text>
                     </Navbar.Collapse>

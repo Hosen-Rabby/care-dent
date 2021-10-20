@@ -8,7 +8,7 @@ const Contact = () => {
             <Container>
                 <Row>
                     <Col lg ={12}>
-                        <h3>Contact Information</h3>
+                        <h3 className='title'>Contact Information</h3>
                     </Col>
                 </Row>
                 <Row>

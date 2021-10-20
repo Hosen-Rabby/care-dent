@@ -11,11 +11,11 @@ const Home = () => {
             <div className = 'overlay'>
             <Container>                
                 <Row>
-                    <Col sm={12} lg={6}>
+                    <Col sm={12} lg={7}>
                         <h3 className = 'text-uppercase banner_h3'>Best Dental care services</h3>
                         <p className = 'text-start'>Care Dent provides free continuing education, patient education and practice management resources to help dental professionals succeed with their</p>
                     </Col>
-                    <Col sm={12} lg={6}>
+                    <Col sm={12} lg={5}>
                         <img src = 'https://template.hasthemes.com/decare/decare/images/slider/1.png' alt=''/>
                     </Col>
                 </Row>

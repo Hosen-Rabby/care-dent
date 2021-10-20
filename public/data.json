@@ -3,7 +3,7 @@
         "key": 1,
         "name": "Fixing Your Teeth",
         "doctor":"Paul Barry",
-        "patient": 3245,
+        "patient": 765,
         "img": "https://template.hasthemes.com/decare/decare/images/service/1.png",
         "description" : "Over time, your teeth become dull, yellow, and stained, making you look unhealthy, aged, and less attractive."
     },
@@ -35,7 +35,7 @@
         "key": 5,
         "name": "Teeth Whitening",
         "doctor":"Salen Raj",
-        "patient": 3245,
+        "patient": 1045,
         "img": "https://template.hasthemes.com/decare/decare/images/service/5.png",
         "description" : "Combine 2 teaspoons of hydrogen peroxide with 1 teaspoon of baking soda and gently brush your teeth with the mixture."
     },
@@ -43,7 +43,7 @@
         "key": 6,
         "name": "Tooth Protection",
         "doctor":"Rahim Mushi",
-        "patient": 3245,
+        "patient": 9245,
         "img": "https://template.hasthemes.com/decare/decare/images/service/6.png",
         "description" : "Brush several times a day. First and foremost, good oral hygiene starts with brushing several times each day."
     }
